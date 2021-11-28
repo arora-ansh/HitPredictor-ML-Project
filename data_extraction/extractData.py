@@ -13,8 +13,8 @@ type(file)
 csvreader = csv.reader(file)
 
 
-client_id = "3ea50e2d2e3e49adbda3213a28140fb0"
-client_secret = "602bf3254c4f4bc2978bb5aaec451e9b"
+client_id = "classified"
+client_secret = "classified"
 client_credentials_manager = SpotifyClientCredentials(client_id=client_id, client_secret=client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager) 
 spotify_url = {}
