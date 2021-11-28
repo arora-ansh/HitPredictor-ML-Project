@@ -7,14 +7,14 @@ Tested on various Machine Learning classifers including :
 - Decision Trees
 - Random Forest
 
-Apart from the above, Multi Layer Perceptron (MLP) was also tested as a classifier and gave really good results with 2 hidden layers.
+Apart from the above, Artificial Neural Networks (ANNs) were also tested as a classifier and gave really good results with 2 hidden layers.
 
 Lyrics were extracted from Google APIs. Some analysis were done on them too :
 - Topic modelling (LDA)
 - K-Means Clustering (Along with other features)
 - Sentiment Analysis
 
-All the results are documented in the `models/` folder jupyter notebooks for reference.
+All the results are documented in the `models/` folder jupyter notebooks for reference. All the Reports and PPTs submitted for the project have been added to the `reports/` folder. The weights and plots can be found in the `weights\` and `plots\` folders respectively.
 
 Team Number - 6
 
