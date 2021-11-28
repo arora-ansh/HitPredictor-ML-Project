@@ -10,12 +10,9 @@ f = open("../datasets/lyrics.csv",'a')
 writer = csv.writer(f)
 
 # JSON API KEY from https://developers.google.com/custom-search/v1/overview Search Engine ID from https://cse.google.com/cse/create/new, website to search mei https://genius.com/
-# pass the GCS_API_KEY = AIzaSyAyrJ0ljh-58kXH0YX1eXo_DEdWR5axgqA, GCS_ENGINE_ID = 286d7776a1820cb5c
-# Tushar API key =  AIzaSyBJcu294CLp0MNFmNDmNHh35t4-qTjcuxU , GCS_ENGINE_ID = 7c91ebb5c3c3002e6
-# extract_lyrics = SongLyrics("AIzaSyAyrJ0ljh-58kXH0YX1eXo_DEdWR5axgqA","286d7776a1820cb5c") ## Ansh
-# extract_lyrics = SongLyrics("AIzaSyBJcu294CLp0MNFmNDmNHh35t4-qTjcuxU","7c91ebb5c3c3002e6") ## Tushar
-# extract_lyrics = SongLyrics("AIzaSyCKFsOTtgykRETOVq0OrF0jo4pu3iFw09o","f4943948815e35bda") ## Jishnu
-extract_lyrics = SongLyrics("AIzaSyBkyvj7k0VuvwIL0-THk51JYNjEO1FC-Ok","afc1b54eeece36eee") ##Nandika
+# pass the GCS_API_KEY = classified, GCS_ENGINE_ID = classified
+
+extract_lyrics = SongLyrics("classfied","classified") 
 i = 0
 df = pd.read_csv('../datasets/lyrics.csv')
 
